@@ -10,7 +10,7 @@ import libs.Console;
 public class KatzeConsoleTest extends Console {
     
     /**
-     * A test method for {@link chapter_1_5.Katze}
+     * A console based test method for {@link chapter_1_5.Katze}
      */
     public KatzeConsoleTest() {
         String name, farbe, rasse;
