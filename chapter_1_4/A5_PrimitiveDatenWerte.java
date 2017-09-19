@@ -6,9 +6,9 @@ package chapter_1_4;
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class PrimitiveDatenWerte {
+public class A5_PrimitiveDatenWerte {
     
-    public PrimitiveDatenWerte() {
+    public A5_PrimitiveDatenWerte() {
         System.out.println("Byte: [" + Byte.MIN_VALUE + " bis " + Byte.MAX_VALUE + "]");
         System.out.println("Short: [" + Short.MIN_VALUE + " bis " + Short.MAX_VALUE + "]");
         

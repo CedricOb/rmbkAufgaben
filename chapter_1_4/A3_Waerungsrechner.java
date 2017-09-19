@@ -7,7 +7,7 @@ import libs.Console;
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class Waerungsrechner extends Console {
+public class A3_Waerungsrechner extends Console {
     
     private final Double KURS = 1.4373;
     

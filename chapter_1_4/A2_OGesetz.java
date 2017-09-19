@@ -7,7 +7,7 @@ import libs.Console;
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class OGesetz extends Console {
+public class A2_OGesetz extends Console {
     
     public void berechneP() {
         Double p = 0.0, i = 0.0, u = 0.0;

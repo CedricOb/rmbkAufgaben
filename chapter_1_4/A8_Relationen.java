@@ -7,7 +7,7 @@ import libs.Console;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Relationen extends Console {
+public class A8_Relationen extends Console {
     
     // Liest zwei ganze Zahlen von der Konsole und gibt das Ergebnis des Vergleiches (>) aus.
     public void istGroesser() {

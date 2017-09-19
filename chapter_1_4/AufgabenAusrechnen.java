@@ -7,9 +7,9 @@ import libs.Console;
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class MatheIstToll {
+public class AufgabenAusrechnen {
     
-    public MatheIstToll() {
+    public AufgabenAusrechnen() {
         // aufgabeA();
         // aufgabeB();
         // aufgabeC();
