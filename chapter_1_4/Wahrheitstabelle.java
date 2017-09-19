@@ -1,6 +1,5 @@
 package chapter_1_4;
 
-import java.util.*;
 /**
  * Write a description of class Wahrheitstabelle here.
  * 
