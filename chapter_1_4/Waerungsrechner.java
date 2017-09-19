@@ -9,7 +9,7 @@ import libs.Console;
  */
 public class Waerungsrechner extends Console {
     
-    private final Integer KURS = 1.4373;
+    private final Double KURS = 1.4373;
     
     public void euroToDollar() {
         Double input = .0;
