@@ -9,6 +9,9 @@ import chapter_1_5.Katze;
  */
 public class KatzeTest {
     
+    /**
+     * A method for {@link chapter_1_5.Katze}
+     */
     public KatzeTest() {
         Katze katze = new Katze("Max", "rot", "American Curl", 2);
         katze.sayName();
