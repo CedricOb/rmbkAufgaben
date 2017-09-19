@@ -9,13 +9,15 @@ import libs.Console;
  */
 public class Waerungsrechner extends Console {
     
+    private final Integer KURS = 1.4373;
+    
     public void euroToDollar() {
         Double input = .0;
         
         System.out.print("Umzurechnende Euro: ");
         input = readDouble();
         
-        Double output = input * 1.4373;
+        Double output = input * KURS;
         System.out.println("Betrag in USD: " + output);
     }
     
@@ -25,7 +27,7 @@ public class Waerungsrechner extends Console {
         System.out.print("Umzurechnende Dollar: ");
         input = readDouble();
         
-        Double output = input / 1.4373;
+        Double output = input / KURS;
         System.out.println("Betrag in Euro: " + output);
     }
 }
