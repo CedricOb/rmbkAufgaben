@@ -15,7 +15,7 @@ public class Waerungsrechner extends Console {
         System.out.print("Umzurechnende Euro: ");
         input = readDouble();
         
-        Double output = ((input * 1.4373) / 1.00);
+        Double output = input * 1.4373;
         System.out.println("Betrag in USD: " + output);
     }
     
@@ -25,7 +25,7 @@ public class Waerungsrechner extends Console {
         System.out.print("Umzurechnende Dollar: ");
         input = readDouble();
         
-        Double output = ((1.00 * input) / 1.4373);
+        Double output = input / 1.4373;
         System.out.println("Betrag in Euro: " + output);
     }
 }
