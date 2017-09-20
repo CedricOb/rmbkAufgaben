@@ -8,7 +8,7 @@ package chapter_1_4;
  */
 public class A7_Wahrheitstabelle {
     
-    public A7_Wahrheitstabelle() {
+    public void zeigeWahrheitstabelle() {
         // Gleichung: c= (a||b) ^ (b&&c); 
         System.out.println("Gleichung: c = (a || b) ^ (b && c)");
         System.out.println();
