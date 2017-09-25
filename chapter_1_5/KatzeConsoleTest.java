@@ -2,10 +2,10 @@ package chapter_1_5;
 
 import libs.Console;
 /**
- * Write a description of class KatzeConsoleTest here.
+ * Test Class with Console for {@link chapter_1_5.Katze}
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author PascalKu
+ * @version 25.09.2017
  */
 public class KatzeConsoleTest extends Console {
     
@@ -13,22 +13,20 @@ public class KatzeConsoleTest extends Console {
      * A console based test method for {@link chapter_1_5.Katze}
      */
     public KatzeConsoleTest() {
-        String name, farbe, rasse;
-        Integer alter;
+        Katze katze = new Katze();
         
         System.out.print("Name: ");
-        name = readString();
+        katze.setName(readString());
         
         System.out.print("Farbe: ");
-        farbe = readString();
+        katze.setFarbe(readString());
         
         System.out.print("Rasse: ");
-        rasse = readString();
+        katze.setRasse(readString());
         
         System.out.print("Alter: ");
-        alter = readInteger();
+        katze.setAlter(readInteger());
         
-        Katze katze = new Katze(name, farbe.toLowerCase(), rasse, alter);
-        katze.sayName();
+        System.out.println(katze);
     }
 }
